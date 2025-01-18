@@ -1,0 +1,5 @@
+build/
+__pycache__/
+targets/*.bin
+targets/*.md5
+log.txt

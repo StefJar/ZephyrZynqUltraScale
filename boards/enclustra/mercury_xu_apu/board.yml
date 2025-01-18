@@ -1,0 +1,6 @@
+board:
+  name: mercury_xu_apu
+  full_name: MERCURY-XU-APU
+  vendor: enclustra
+  socs:
+  - name: zynqmp_apu

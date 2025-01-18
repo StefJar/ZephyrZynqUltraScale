@@ -1,0 +1,9 @@
+# Copyright (c) 2025, Stefan Jaritz
+identifier: mercury_xu_apu
+name: MERCURY-XU-APU
+type: mcu
+arch: arm64
+toolchain:
+  - zephyr
+  - gnuarmemb
+vendor: amd

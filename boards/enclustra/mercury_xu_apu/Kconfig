@@ -1,0 +1,5 @@
+# Copyright (c) 2025 Stefan Jaritz
+# SPDX-License-Identifier: Apache-2.0
+
+config UART_XLNX_PS
+	select PINCTRL if BOARD_MERCURY_XU_APU

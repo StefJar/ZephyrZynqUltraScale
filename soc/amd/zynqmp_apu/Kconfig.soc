@@ -1,0 +1,18 @@
+# Copyright (c) 2025, Stefan Jaritz
+# SPDX-License-Identifier: Apache-2.0
+
+config SOC_AMD_ZYNQMP
+	bool
+	select SOC_FAMILY_ARM64
+
+config SOC_AMD_ZYNQMP_APU
+	bool
+	select SOC_AMD_ZYNQMP
+	help
+	  AMD Zynq UltraScale+ MPSoC APU config
+
+config SOC_FAMILY
+	default "amd_zynqmp" if SOC_AMD_ZYNQMP
+
+config SOC
+	default "zynqmp_apu" if SOC_AMD_ZYNQMP_APU
